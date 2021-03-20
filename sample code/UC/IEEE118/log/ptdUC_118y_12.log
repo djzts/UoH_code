@@ -1,0 +1,115 @@
+[1] Object Define
+[7] Object Define
+[9] Object Define
+
+
+
+[12] Object Define
+[4] Object Define
+[10] Object Define
+[2] Object Define
+[11] Object Define
+
+
+Worker 1 is allocated with 730 time intervals [1 .. 730]
+Worker 2 is allocated with 730 time intervals [731 .. 1460]
+Worker 3 is allocated with 730 time intervals [1461 .. 2190]
+Worker 4 is allocated with 730 time intervals [2191 .. 2920]
+Worker 5 is allocated with 730 time intervals [2921 .. 3650]
+Worker 6 is allocated with 730 time intervals [3651 .. 4380]
+Worker 7 is allocated with 730 time intervals [4381 .. 5110]
+Worker 8 is allocated with 730 time intervals [5111 .. 5840]
+Worker 9 is allocated with 730 time intervals [5841 .. 6570]
+Worker 10 is allocated with 730 time intervals [6571 .. 7300]
+Worker 11 is allocated with 730 time intervals [7301 .. 8030]
+Worker 12 is allocated with 731 time intervals [8031 .. 8761]
+[0] Object Define
+
+[8] Object Define
+[5] Object Define
+[3] Object Define
+[6] Object Define
+
+[7] Object Init
+[9] Object Init
+[4] Object Init
+
+[0] Object Init
+[11] Object Init
+[1] Object Init
+[12] Object Init
+
+
+[2] Object Init
+[10] Object Init
+
+[5] Object Init
+[6] Object Init
+[8] Object Init
+[3] Object Init
+
+
+[0] Communication Setup
+[12] Formulation Define
+[4] Formulation Define
+[1] Formulation Define
+[7] Formulation Define
+[11] Formulation Define
+[2] Formulation Define
+[9] Formulation Define
+[10] Formulation Define
+[5] Formulation Define
+[6] Formulation Define
+[8] Formulation Define
+[3] Formulation Define
+[1] Communication Setup
+[12] Communication Setup
+[4] Communication Setup
+[7] Communication Setup
+[11] Communication Setup
+[9] Communication Setup
+[2] Communication Setup
+[5] Communication Setup
+[10] Communication Setup
+[6] Communication Setup
+[8] Communication Setup
+[3] Communication Setup
+[0] Solve Call to [1]
+[0] Solve Call to [2]
+[0] Solve Call to [3]
+[0] Solve Call to [4]
+[0] Solve Call to [5]
+[0] Solve Call to [6]
+[0] Solve Call to [7]
+[0] Solve Call to [8]
+[0] Solve Call to [9]
+[0] Solve Call to [10]
+[0] Solve Call to [11]
+[0] Solve Call to [12]
+elapsed time: 25.107776999 seconds
+[7] Solve with Iter = 0
+[4] Solve with Iter = 0
+[12] Solve with Iter = 0
+[11] Solve with Iter = 0
+[9] Solve with Iter = 0
+[2] Solve with Iter = 0
+[5] Solve with Iter = 0
+[8] Solve with Iter = 0
+[6] Solve with Iter = 0
+[10] Solve with Iter = 0
+[3] Solve with Iter = 0
+[1] Solve with Iter = 0
+
+job aborted:
+[ranks] message
+
+[0] job terminated by the user
+
+[1-12] terminated
+
+---- error analysis -----
+
+[0] on WIN-7QH1JP48M4E
+ctrl-c was hit. job aborted by the user.
+
+---- error analysis -----

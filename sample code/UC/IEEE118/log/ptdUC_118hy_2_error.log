@@ -1,0 +1,36 @@
+[2] Object Define
+Worker 1 is allocated with 2184 time intervals [1 .. 2184]
+Worker 2 is allocated with 2185 time intervals [2185 .. 4369]
+[0] Object Define
+[1] Object Define
+[2] Object Init
+[0] Object Init
+[1] Object Init
+[0] Communication Setup
+[2] Formulation Define
+[1] Formulation Define
+[2] Communication Setup
+[1] Communication Setup
+[0] Solve Call to [1]
+[0] Solve Call to [2]
+elapsed time: 38.143175011 seconds
+[1] Solve with Iter = 0
+[2] Solve with Iter = 0
+[0] Pull Call to [1]
+[1] Pull Call Processing
+
+job aborted:
+[ranks] message
+
+[0] terminated
+
+[1] process exited without calling finalize
+
+[2] terminated
+
+---- error analysis -----
+
+[1] on WIN-7QH1JP48M4E
+julia ended prematurely and may have crashed. exit code 1
+
+---- error analysis -----

@@ -1,0 +1,285 @@
+
+E:\GGC\tduc\tduc\tdUC>mpiexec -n 7 julia ptdUC.jl
+[4] Object Define
+Worker 1 is allocated with 120 time intervals [1 .. 120]
+Worker 2 is allocated with 120 time intervals [121 .. 240]
+Worker 3 is allocated with 120 time intervals [241 .. 360]
+Worker 4 is allocated with 120 time intervals [361 .. 480]
+Worker 5 is allocated with 120 time intervals [481 .. 600]
+Worker 6 is allocated with 121 time intervals [601 .. 721]
+[0] Object Define
+[3] Object Define
+[1] Object Define
+[6] Object Define
+
+
+[2] Object Define
+[5] Object Define
+[4] Object Init
+[0] Object Init
+[2] Object Init
+[5] Object Init
+[1] Object Init
+[3] Object Init
+[6] Object Init
+[0] Communication Setup
+[1] Formulation Define
+[6] Formulation Define
+[2] Formulation Define
+[4] Formulation Define
+[3] Formulation Define
+[5] Formulation Define
+[1] Communication Setup
+[6] Communication Setup
+[4] Communication Setup
+[2] Communication Setup
+[3] Communication Setup
+[5] Communication Setup
+[0] Solve Call to [1]
+[0] Solve Call to [2]
+[0] Solve Call to [3]
+[0] Solve Call to [4]
+[0] Solve Call to [5]
+[0] Solve Call to [6]
+elapsed time: 19.114692454 seconds
+[3] Solve with Iter = 0
+[2] Solve with Iter = 0
+[6] Solve with Iter = 0
+[5] Solve with Iter = 0
+[4] Solve with Iter = 0
+[1] Solve with Iter = 0
+[0] Pull Call to [6]
+[6] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 5.252400600499652e7 / 99.12899994850159
+[0] Pull Call to [3]
+[3] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 5.862643457976757e7 / 105.65999984741211
+[0] Pull Call to [2]
+[2] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 6.535740133368154e7 / 126.16100001335144
+[0] Push Data to [3]
+[0] Solve Call to [3]
+[0] Push Data to [2]
+[0] Solve Call to [2]
+[3] Push Call Processing
+[3] Solve with Iter = 2
+[2] Push Call Processing
+[2] Solve with Iter = 3
+[0] Pull Call to [4]
+[4] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 6.275026105654099e7 / 133.17700004577637
+[0] Push Data to [4]
+[0] Solve Call to [4]
+[4] Push Call Processing
+[4] Solve with Iter = 4
+[0] Pull Call to [1]
+[1] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 6.8751961835904e7 / 151.44299983978271
+[0] Push Data to [1]
+[0] Solve Call to [1]
+[1] Push Call Processing
+[1] Solve with Iter = 5
+[0] Pull Call to [5]
+[5] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.9040425354382925e7 / 171.8499999046325
+[0] Push Data to [6]
+[0] Solve Call to [6]
+[0] Push Data to [5]
+[0] Solve Call to [5]
+[6] Push Call Processing
+[6] Solve with Iter = 1
+[5] Push Call Processing
+[5] Solve with Iter = 6
+[0] Pull Call to [2]
+[2] Pull Call Processing
+
+
+[0] CurrentObj / TimeElapsed = 3.904003536566322e7 / 190.03900003433228
+[0] Push Data to [2]
+[2] Push Call Processing
+
+[0] Solve Call to [2]
+[2] Solve with Iter = 7
+[0] Pull Call to [1]
+[1] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.903940741442151e7 / 214.36800003051758
+[0] Push Data to [1]
+[1] Push Call Processing
+[0] Solve Call to [1]
+[1] Solve with Iter = 8
+[3] Pull Call Processing
+[0] Pull Call to [3]
+[0] CurrentObj / TimeElapsed = 3.9034111720077135e7 / 224.1649999618530
+[3] Push Call Processing
+[0] Push Data to [3]
+
+[0] Solve Call to [3]
+[3] Solve with Iter = 9
+[0] Pull Call to [4]
+[4] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.903007891560993e7 / 232.03999996185303
+[4] Push Call Processing
+[0] Push Data to [4]
+
+[0] Solve Call to [4]
+[4] Solve with Iter = 10
+[0] Pull Call to [6]
+[6] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.901536684315701e7 / 266.44799995422363
+[0] Pull Call to [3]
+[3] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.901510030827118e7 / 288.1199998855591
+[3] Push Call Processing
+[0] Push Data to [3]
+
+
+[0] Solve Call to [3]
+[3] Solve with Iter = 12
+[0] Pull Call to [1]
+[1] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.9015100308271125e7 / 297.135999917984
+[4] Pull Call Processing
+[0] Pull Call to [4]
+
+
+[0] CurrentObj / TimeElapsed = 3.9014797729929045e7 / 298.8079998493194
+[0] Push Data to [4]
+[4] Push Call Processing
+
+
+[0] Solve Call to [4]
+[4] Solve with Iter = 14
+[0] Pull Call to [2]
+[2] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.900985147440567e7 / 320.42400002479553
+[0] Push Data to [1]
+[1] Push Call Processing
+[0] Solve Call to [1]
+[0] Push Data to [2]
+[2] Push Call Processing
+[0] Solve Call to [2]
+[1] Solve with Iter = 13
+[2] Solve with Iter = 15
+[0] Pull Call to [5]
+[5] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.900417141671679e7 / 327.79499983787537
+[0] Push Data to [6]
+[6] Push Call Processing
+[0] Solve Call to [6]
+[0] Push Data to [5]
+[5] Push Call Processing
+[0] Solve Call to [5]
+[6] Solve with Iter = 11
+[5] Solve with Iter = 16
+[3] Pull Call Processing
+[0] Pull Call to [3]
+
+
+[0] CurrentObj / TimeElapsed = 3.900417141670862e7 / 353.79900002479553
+[0] Push Data to [3]
+[3] Push Call Processing
+
+[0] Solve Call to [3]
+[3] Solve with Iter = 17
+[0] Pull Call to [4]
+[4] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.900417141670901e7 / 369.0260000228882
+[0] Push Data to [4]
+[4] Push Call Processing
+[0] Solve Call to [4]
+[4] Solve with Iter = 18
+[0] Pull Call to [2]
+[2] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.900417141670893e7 / 388.0260000228882
+[0] Push Data to [2]
+[2] Push Call Processing
+
+
+[0] Solve Call to [2]
+[2] Solve with Iter = 19
+[0] Pull Call to [1]
+[1] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.9004171416708976e7 / 392.4670000076294
+[0] Push Data to [1]
+[1] Push Call Processing
+
+
+[0] Solve Call to [1]
+[1] Solve with Iter = 20
+[0] Pull Call to [6]
+[6] Pull Call Processing
+
+[0] CurrentObj / TimeElapsed = 3.900419067632654e7 / 403.7170000076294
+[0] Pull Call to [3]
+[3] Pull Call Processing
+
+[0] CurrentObj / TimeElapsed = 3.900419067632658e7 / 411.1269998550415
+[0] Push Data to [3]
+[3] Push Call Processing
+[0] Solve Call to [3]
+[3] Solve with Iter = 22
+[0] Pull Call to [5]
+[5] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.900423092633046e7 / 412.1339998245239
+[0] Push Data to [6]
+[6] Push Call Processing
+[0] Solve Call to [6]
+[0] Push Data to [5]
+[5] Push Call Processing
+[0] Solve Call to [5]
+[6] Solve with Iter = 21
+[5] Solve with Iter = 23
+[0] Pull Call to [4]
+[4] Pull Call Processing
+
+
+[0] CurrentObj / TimeElapsed = 3.9004230926329695e7 / 433.2189998626709
+[0] Push Data to [4]
+[4] Push Call Processing
+
+
+[0] Solve Call to [4]
+[4] Solve with Iter = 24
+[0] Pull Call to [2]
+[2] Pull Call Processing
+
+[0] CurrentObj / TimeElapsed = 3.900423092632971e7 / 448.32999992370605
+[0] Push Data to [2]
+[2] Push Call Processing
+
+
+[0] Solve Call to [2]
+[2] Solve with Iter = 25
+[1] Pull Call Processing
+[0] Pull Call to [1]
+
+
+[0] CurrentObj / TimeElapsed = 3.9004230926329404e7 / 456.5529999732971
+[0] Push Data to [1]
+[1] Push Call Processing
+
+
+[0] Solve Call to [1]
+[1] Solve with Iter = 26
+[0] Pull Call to [6]
+[6] Pull Call Processing
+
+
+[0] CurrentObj / TimeElapsed = 3.900421166671172e7 / 466.5079998970032
+mpiexec aborting job...
+
+job aborted:
+[ranks] message
+
+[0] job terminated by the user
+
+[1-6] terminated
+
+---- error analysis -----
+
+[0] on WIN-7QH1JP48M4E
+ctrl-c was hit. job aborted by the user.
+
+---- error analysis -----
+
+E:\GGC\tduc\tduc\tdUC>

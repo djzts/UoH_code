@@ -1,0 +1,371 @@
+[12] Object Define
+[2] Object Define
+[3] Object Define
+
+[8] Object Define
+[4] Object Define
+Worker 1 is allocated with 364 time intervals [1 .. 364]
+Worker 2 is allocated with 364 time intervals [365 .. 728]
+Worker 3 is allocated with 364 time intervals [729 .. 1092]
+Worker 4 is allocated with 364 time intervals [1093 .. 1456]
+Worker 5 is allocated with 364 time intervals [1457 .. 1820]
+Worker 6 is allocated with 364 time intervals [1821 .. 2184]
+Worker 7 is allocated with 364 time intervals [2185 .. 2548]
+
+
+[6] Object Define
+
+Worker 8 is allocated with 364 time intervals [2549 .. 2912]
+[9] Object Define
+
+Worker 9 is allocated with 364 time intervals [2913 .. 3276]
+Worker 10 is allocated with 364 time intervals [3277 .. 3640]
+Worker 11 is allocated with 364 time intervals [3641 .. 4004]
+Worker 12 is allocated with 365 time intervals [4005 .. 4369]
+[0] Object Define
+[1] Object Define
+[10] Object Define
+
+[7] Object Define
+
+[5] Object Define
+[11] Object Define
+[12] Object Init
+[6] Object Init
+[3] Object Init
+[2] Object Init
+[0] Object Init
+
+[7] Object Init
+[9] Object Init
+[10] Object Init
+
+[8] Object Init
+[4] Object Init
+[1] Object Init
+[11] Object Init
+[0] Communication Setup
+[5] Object Init
+[12] Formulation Define
+[6] Formulation Define
+[3] Formulation Define
+[2] Formulation Define
+[7] Formulation Define
+[8] Formulation Define
+[10] Formulation Define
+[4] Formulation Define
+[9] Formulation Define
+[1] Formulation Define
+[12] Communication Setup
+[11] Formulation Define
+[5] Formulation Define
+[6] Communication Setup
+[1] Communication Setup
+[2] Communication Setup
+[7] Communication Setup
+[3] Communication Setup
+[8] Communication Setup
+[4] Communication Setup
+[10] Communication Setup
+[9] Communication Setup
+[11] Communication Setup
+[5] Communication Setup
+[0] Solve Call to [1]
+[0] Solve Call to [2]
+[0] Solve Call to [3]
+[0] Solve Call to [4]
+[0] Solve Call to [5]
+[0] Solve Call to [6]
+[0] Solve Call to [7]
+[0] Solve Call to [8]
+[0] Solve Call to [9]
+[0] Solve Call to [10]
+[0] Solve Call to [11]
+[0] Solve Call to [12]
+elapsed time: 25.594053109 seconds
+[1] Solve with Iter = 0
+[5] Solve with Iter = 0
+[12] Solve with Iter = 0
+[10] Solve with Iter = 0
+[3] Solve with Iter = 0
+[11] Solve with Iter = 0
+[7] Solve with Iter = 0
+[4] Solve with Iter = 0
+[6] Solve with Iter = 0
+[8] Solve with Iter = 0
+[2] Solve with Iter = 0
+
+
+[9] Solve with Iter = 0
+[4] Pull Call Processing
+[0] Pull Call to [4]
+[0] CurrentObj / TimeElapsed = 6.404892889133917e7 / 569.9379999637604
+[0] Pull Call to [12]
+[12] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 8.342871273549177e7 / 584.2969999313354
+[0] Pull Call to [5]
+[5] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.0296058010122016e8 / 607.6419999599457
+[0] Push Data to [4]
+[0] Solve Call to [4]
+[0] Push Data to [5]
+[0] Solve Call to [5]
+[4] Push Call Processing
+[4] Solve with Iter = 1
+[5] Push Call Processing
+[5] Solve with Iter = 3
+[0] Pull Call to [10]
+[10] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.224177271338178e8 / 615.4389998912811
+[0] Pull Call to [9]
+[9] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.4152452043520182e8 / 637.2369999885559
+[0] Push Data to [10]
+[0] Solve Call to [10]
+[0] Push Data to [9]
+[0] Solve Call to [9]
+[10] Push Call Processing
+[9] Push Call Processing
+[10] Solve with Iter = 4
+[9] Solve with Iter = 5
+[0] Pull Call to [7]
+[7] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.6099681584826338e8 / 682.300999879837
+[0] Pull Call to [3]
+[3] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.8038298286341745e8 / 695.6610000133514
+[0] Push Data to [3]
+[0] Solve Call to [3]
+[3] Push Call Processing
+[3] Solve with Iter = 7
+[0] Pull Call to [1]
+[1] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.531029183761334e8 / 701.8799998760223
+[0] Pull Call to [5]
+[5] Pull Call Processing
+
+
+[0] CurrentObj / TimeElapsed = 1.5310291837598836e8 / 940.9670000076294
+[0] Pull Call to [10]
+[10] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.5310291837598833e8 / 965.8589999675751
+[0] Pull Call to [4]
+[4] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.5310259336486283e8 / 984.9069998264313
+[0] Push Data to [5]
+[5] Push Call Processing
+[0] Solve Call to [5]
+[0] Push Data to [4]
+[0] Solve Call to [4]
+[4] Push Call Processing
+[5] Solve with Iter = 9
+[4] Solve with Iter = 11
+[0] Pull Call to [3]
+[3] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.5310246375990123e8 / 1038.0809998512268
+[0] Push Data to [3]
+[3] Push Call Processing
+
+[0] Solve Call to [3]
+[3] Solve with Iter = 12
+[0] Pull Call to [8]
+[8] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.7312415955583057e8 / 1118.4429998397827
+[0] Push Data to [7]
+[0] Solve Call to [7]
+[0] Push Data to [8]
+[0] Solve Call to [8]
+[8] Push Call Processing
+[7] Push Call Processing
+[8] Solve with Iter = 13
+[7] Solve with Iter = 6
+[0] Pull Call to [9]
+[9] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.7312214769810557e8 / 1162.287999868393
+[0] Push Data to [10]
+[10] Push Call Processing
+[0] Solve Call to [10]
+[0] Push Data to [9]
+[9] Push Call Processing
+
+
+[0] Solve Call to [9]
+[9] Solve with Iter = 14
+[10] Solve with Iter = 10
+[5] Pull Call Processing
+[0] Pull Call to [5]
+
+[0] CurrentObj / TimeElapsed = 1.7312214769810557e8 / 1325.99799990654
+[0] Pull Call to [4]
+[4] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.731220759473547e8 / 1374.25
+[0] Push Data to [5]
+[5] Push Call Processing
+
+
+[0] Solve Call to [5]
+[0] Push Data to [4]
+[4] Push Call Processing
+[0] Solve Call to [4]
+[4] Solve with Iter = 16
+[5] Solve with Iter = 15
+[0] Pull Call to [3]
+[3] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.731220759473547e8 / 1408.1729998588562
+[0] Push Data to [3]
+[3] Push Call Processing
+[0] Solve Call to [3]
+[3] Solve with Iter = 17
+[10] Pull Call Processing
+[0] Pull Call to [10]
+
+
+[0] CurrentObj / TimeElapsed = 1.731220759473547e8 / 1518.1619999408722
+[0] Pull Call to [7]
+[7] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.7312171628631788e8 / 1543.521999835968
+[0] Pull Call to [9]
+[9] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.7312150025297883e8 / 1605.523999929428
+[0] Push Data to [10]
+[10] Push Call Processing
+[0] Solve Call to [10]
+[0] Push Data to [9]
+[9] Push Call Processing
+[0] Solve Call to [9]
+[9] Solve with Iter = 20
+[10] Solve with Iter = 18
+[0] Pull Call to [5]
+[5] Pull Call Processing
+
+[0] CurrentObj / TimeElapsed = 1.7312150025297883e8 / 1713.2469999790192
+[0] Pull Call to [4]
+[4] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.7312150025297883e8 / 1747.6549999713898
+[0] Push Data to [5]
+[5] Push Call Processing
+[0] Solve Call to [5]
+[0] Push Data to [4]
+[4] Push Call Processing
+[0] Solve Call to [4]
+[4] Solve with Iter = 22
+[5] Solve with Iter = 21
+[0] Pull Call to [3]
+[3] Pull Call Processing
+
+[0] CurrentObj / TimeElapsed = 1.7312150025297883e8 / 1775.0
+[0] Push Data to [3]
+[3] Push Call Processing
+[0] Solve Call to [3]
+[3] Solve with Iter = 23
+[8] Pull Call Processing
+[0] Pull Call to [8]
+
+
+[0] CurrentObj / TimeElapsed = 1.7312094130852762e8 / 1858.9399998188019
+[0] Push Data to [7]
+[7] Push Call Processing
+[0] Solve Call to [7]
+[0] Push Data to [8]
+[0] Solve Call to [8]
+[8] Push Call Processing
+[7] Solve with Iter = 19
+[8] Solve with Iter = 24
+[0] Pull Call to [10]
+[10] Pull Call Processing
+
+[0] CurrentObj / TimeElapsed = 1.7312094130852762e8 / 2000.523999929428
+[0] Pull Call to [9]
+[9] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.7312094130852762e8 / 2051.0879998207092
+[0] Push Data to [10]
+[10] Push Call Processing
+
+[0] Solve Call to [10]
+[0] Push Data to [9]
+[9] Push Call Processing
+
+
+[0] Solve Call to [9]
+[10] Solve with Iter = 25
+[9] Solve with Iter = 26
+[5] Pull Call Processing
+[0] Pull Call to [5]
+
+
+[0] CurrentObj / TimeElapsed = 1.7312094130852762e8 / 2147.888999938965
+[0] Pull Call to [3]
+[3] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.7312094130852762e8 / 2177.4989998340607
+[0] Pull Call to [4]
+[4] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.7312094130852762e8 / 2204.2039999961853
+[0] Push Data to [5]
+[5] Push Call Processing
+[0] Solve Call to [5]
+[0] Push Data to [3]
+[3] Push Call Processing
+[0] Solve Call to [3]
+[0] Push Data to [4]
+[0] Solve Call to [4]
+[4] Push Call Processing
+[3] Solve with Iter = 28
+[4] Solve with Iter = 29
+[5] Solve with Iter = 27
+[0] Pull Call to [7]
+[7] Pull Call Processing
+
+
+[0] CurrentObj / TimeElapsed = 1.7312094130852762e8 / 2273.111999988556
+[0] Pull Call to [8]
+[8] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.7312094130852753e8 / 2279.6440000534058
+[0] Push Data to [7]
+[7] Push Call Processing
+[0] Solve Call to [7]
+[0] Push Data to [8]
+[8] Push Call Processing
+[0] Solve Call to [8]
+[8] Solve with Iter = 31
+[7] Solve with Iter = 30
+[0] Pull Call to [2]
+[2] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.9245040467087078e8 / 2410.8049998283386
+[0] Push Data to [1]
+[0] Solve Call to [1]
+[0] Push Data to [2]
+[0] Solve Call to [2]
+[1] Push Call Processing
+[1] Solve with Iter = 8
+[2] Push Call Processing
+[2] Solve with Iter = 32
+[0] Pull Call to [10]
+[10] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.9245040467087078e8 / 2429.6189999580383
+[0] Pull Call to [9]
+[9] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 1.9245062070420957e8 / 2437.2129998207092
+[0] Push Data to [10]
+[10] Push Call Processing
+
+
+[0] Solve Call to [10]
+[0] Push Data to [9]
+[9] Push Call Processing
+[0] Solve Call to [9]
+[9] Solve with Iter = 34
+[10] Solve with Iter = 33
+
+job aborted:
+[ranks] message
+
+[0] job terminated by the user
+
+[1-12] terminated
+
+---- error analysis -----
+
+[0] on WIN-7QH1JP48M4E
+ctrl-c was hit. job aborted by the user.
+
+---- error analysis -----

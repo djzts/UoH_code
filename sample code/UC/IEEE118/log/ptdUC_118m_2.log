@@ -1,0 +1,118 @@
+E:\GGC\tduc\tduc\tdUC>mpiexec -n 3 julia ptdUC.jl
+[1] Object Define
+[2] Object Define
+Worker 1 is allocated with 360 time intervals [1 .. 360]
+Worker 2 is allocated with 361 time intervals [361 .. 721]
+[0] Object Define
+[1] Object Init
+[0] Object Init
+[2] Object Init
+[0] Communication Setup
+[1] Formulation Define
+[2] Formulation Define
+[1] Communication Setup
+[2] Communication Setup
+[0] Solve Call to [1]
+[0] Solve Call to [2]
+elapsed time: 20.752350577 seconds
+[1] Solve with Iter = 0
+[2] Solve with Iter = 0
+[0] Pull Call to [1]
+[1] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 6.891169780250315e7 / 466.5639998912811
+[0] Pull Call to [2]
+[2] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.9009482697210304e7 / 747.4679999351501
+[0] Push Data to [1]
+[0] Solve Call to [1]
+[0] Push Data to [2]
+[0] Solve Call to [2]
+[1] Push Call Processing
+[1] Solve with Iter = 1
+[2] Push Call Processing
+[2] Solve with Iter = 2
+[0] Pull Call to [1]
+[1] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.900921616230947e7 / 1065.5649998188019
+[0] Pull Call to [2]
+[2] Pull Call Processing
+
+[0] CurrentObj / TimeElapsed = 3.9009216162296966e7 / 1177.5279998779297
+[0] Push Data to [1]
+[1] Push Call Processing
+[0] Solve Call to [1]
+[0] Push Data to [2]
+[2] Push Call Processing
+
+
+[0] Solve Call to [2]
+[1] Solve with Iter = 3
+[2] Solve with Iter = 4
+[0] Pull Call to [1]
+[1] Pull Call Processing
+
+
+[0] CurrentObj / TimeElapsed = 3.900921616229697e7 / 1484.2409999370575
+[2] Pull Call Processing
+[0] Pull Call to [2]
+
+[0] CurrentObj / TimeElapsed = 3.900921616229697e7 / 1578.4559998512268
+[0] Push Data to [1]
+[1] Push Call Processing
+[0] Solve Call to [1]
+[0] Push Data to [2]
+[2] Push Call Processing
+
+
+[0] Solve Call to [2]
+[1] Solve with Iter = 5
+[2] Solve with Iter = 6
+[0] Pull Call to [1]
+[1] Pull Call Processing
+
+
+[0] CurrentObj / TimeElapsed = 3.900921616229697e7 / 1882.606999874115
+[0] Pull Call to [2]
+[2] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.900921616229697e7 / 1946.343999862671
+[0] Push Data to [1]
+[1] Push Call Processing
+[0] Solve Call to [1]
+[0] Push Data to [2]
+[2] Push Call Processing
+[0] Solve Call to [2]
+[1] Solve with Iter = 7
+[2] Solve with Iter = 8
+[1] Pull Call Processing
+[0] Pull Call to [1]
+[0] CurrentObj / TimeElapsed = 3.900921616229697e7 / 2260.944000005722
+[0] Pull Call to [2]
+[2] Pull Call Processing
+[0] CurrentObj / TimeElapsed = 3.900921616229697e7 / 2313.2839999198914
+[0] Push Data to [1]
+[1] Push Call Processing
+[0] Solve Call to [1]
+[0] Push Data to [2]
+[2] Push Call Processing
+
+
+[0] Solve Call to [2]
+[1] Solve with Iter = 9
+[2] Solve with Iter = 10
+mpiexec aborting job...
+
+job aborted:
+[ranks] message
+
+[0] job terminated by the user
+
+[1-2] terminated
+
+---- error analysis -----
+
+[0] on WIN-7QH1JP48M4E
+ctrl-c was hit. job aborted by the user.
+
+---- error analysis -----
+
+E:\GGC\tduc\tduc\tdUC>
