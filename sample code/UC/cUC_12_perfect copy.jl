@@ -254,7 +254,7 @@ end
 @constraint(m, C2627b[iG = 1:nG, iT = 2:nT], pG[iG,iT] - pG[iG,iT-1] <= Gen[iG].RU*yG[iG,iT] + Gen[iG].SU*uG[iG,iT])
 
 @constraint(m, PowerF[iB = 1:nB, iT = 1:nT],
-	  sum(pG[iG,iT] for iG = findall(iGG -> Gen[iGG].bus==iB, 1:nG))
+	  sum(pG[iG,iT] for iG = suml(iGG -> Gen[iGG].bus==iB, 1:nG))
 	- Bus[iB].p_load * Time[iT].load_ratio
 	- sum(B.nzval[idx] * theta[B.rowval[idx],iT] for idx in B.colptr[iB]:(B.colptr[iB+1]-1))
      == 0.0 )
